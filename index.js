@@ -73,7 +73,7 @@ exports.convert = function(document, format, filter, callback) {
             });
         }]
     }, function(err, res) {
-        temp.cleanup();
+        //temp.cleanup();
 
         if (err) {
             return callback(err);
